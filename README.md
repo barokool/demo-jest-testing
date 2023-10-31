@@ -1,43 +1,24 @@
-# Testing Express REST API
+<!-- yarn add supertest jest ts-jest @types/jest @types/supertest -D -->
 
-## Key takeaways
-* An understanding of how important testing is
-* Testing doesn't have to be complicated or difficult
+<!-- yarn ts-jest config:init -->
 
-## What will you learn?
-* Testing a REST API end-to-end with Supertest & mongodb-memory-server
-* Mocking services
-* Testing from the controller to the service
+<!-- docker run -d -p 27017:27017 --name rest-api-tutorial mongo:latest -->
 
+<!-- password : ZWcAQL3KsZRKIkj1 -->
+<!-- username : knabao7a7 -->
 
-Read: https://github.com/goldbergyoni/javascript-testing-best-practices
+<!-- mongodb+srv://knabao7a7:ZWcAQL3KsZRKIkj1@cluster0.mlszoxl.mongodb.net/?retryWrites=true&w=majority -->
 
-## What you will need
-* Clone this repository: https://github.com/TomDoesTech/REST-API-Tutorial-Updated
-* An IDE or text editor (VS Code)
-* A package manager such as NPM or Yarn
-* Node.js installed
+## STEP RUNNING APPLICATION
 
+# To install all dependencies
 
-## What next?
-* ~~Testing the API with Jest~~
-* Build a React.js user interface
-* Add Prometheus metrics to the API
-* Deploy the API with Caddy & Docker
-* Add Google OAuth
+# - yarn
 
-## Data flow
-![](./diagrams/data-flow-testing.png)
+# To run application
 
+# - yarn dev
 
-## Let's keep in touch
-- [Subscribe on YouTube](https://www.youtube.com/TomDoesTech)
-- [Discord](https://discord.gg/4ae2Esm6P7)
-- [Twitter](https://twitter.com/tomdoes_tech)
-- [TikTok](https://www.tiktok.com/@tomdoestech)
-- [Facebook](https://www.facebook.com/tomdoestech)
-- [Instagram](https://www.instagram.com/tomdoestech)
+# To run test case
 
-[Buy me a Coffee](https://www.buymeacoffee.com/tomn)
-
-[Sign up to DigitalOcean 💖](https://m.do.co/c/1b74cb8c56f4)
+# - yarn test
